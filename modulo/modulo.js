@@ -1,11 +1,11 @@
 
     for (var i = 0; i < 100; i++) {
         if (i % 2 == 0 && i % 3 == 0) {
-            console.log("Labas, Krabas");
+            console.log(i + " Labas, Krabas");
         } else if (i % 2 == 0 ) {
-            console.log("Labas");
+            console.log(i + " Labas");
         } else if (i % 3 == 0 ) {
-            console.log("Krabas");
+            console.log(i + " Krabas");
         } else {
             console.log(i);
         }
