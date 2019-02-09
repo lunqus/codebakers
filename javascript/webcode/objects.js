@@ -13,4 +13,13 @@ let cat = {
 
 }
 
-cat.meow()
+console.log(cat.age)
+console.log(cat.name)
+console.log(cat.foods.favorite)
+
+
+document.addEventListener("click", myAmazingFunction)
+
+function myAmazingFunction() {
+    alert("Hello there!")
+}
