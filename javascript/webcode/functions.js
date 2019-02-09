@@ -24,3 +24,4 @@ let cat {
     }
 
 }
+console.log(cat.age)
