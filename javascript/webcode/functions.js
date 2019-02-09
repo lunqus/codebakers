@@ -15,3 +15,8 @@ function tripleMe(x) {
 
 let myFavoriteNumber = tripleMe(12)
 alert(myFavoriteNumber)
+
+// Higer-Order Function is a function that either:
+//  (A) Accepts a function as an argument
+//  (B) Returns a function as a result
+
