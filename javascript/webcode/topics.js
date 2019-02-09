@@ -15,3 +15,21 @@ let myNumbers = [10, 500, 2000]
 let doubledNumbers = myNumbers.map(x => x * 2)
 
 console.log(doubledNumbers)
+
+// --------
+
+let john = {
+    firstName: "John",
+    lastName: "Doe",
+    driveCar() {
+
+        let imAFunctionNotAMethod = () => console.log(this) // Diff from context.js
+        imAFunctionNotAMethod()
+
+        // The 'this' keyword points towards the object that is executing the current function
+
+        console.log(this.firstName + " " + this.lastName + " is driving a car.")
+    }
+}
+
+john.driveCar()
