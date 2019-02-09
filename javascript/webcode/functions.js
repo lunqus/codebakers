@@ -1,15 +1,20 @@
-// Function is a verb
+// Functions is a action words (verbs)
 // Practice make perfect
 
 // console.log("Hey");
 
-function greet() {
-    alert("Hello, my name is Brad.")
+function greet(theName) {
+    alert("Hello, my name is " + theName + ".")
 }
 
-// greet();
+greet("Benas")
 
-// console.log(paduok);
+function tripleMe(x) {
+    return 3 * x
+}
+
+let myFavoriteNumber = tripleMe(12)
+alert(myFavoriteNumber)
 
 let cat {
     name: "Flurry",
@@ -24,4 +29,4 @@ let cat {
     }
 
 }
-console.log(cat.age)
+console.log(cat.meow())
