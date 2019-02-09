@@ -15,18 +15,3 @@ function tripleMe(x) {
 
 let myFavoriteNumber = tripleMe(12)
 alert(myFavoriteNumber)
-
-let cat {
-    name: "Flurry",
-    age: 4,
-    foods: {
-        favorite: "Tuna",
-        leastFavorite: "Oranges"
-    },
-    eyeColor: "blue",
-    meow() {
-        alert("Meooowwwwww")
-    }
-
-}
-console.log(cat.meow())
