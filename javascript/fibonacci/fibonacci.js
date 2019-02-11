@@ -1,6 +1,12 @@
-function fib(n) {
-    if (n < 2){
-        return n
-    }
-    return fib(n - 1) + fib (n - 2)
+var a,b,rez
+
+a = 0
+b = 1
+rez = b
+for(var i = 1; i < 10; i++) {
+
+    console.log(rez)
+    rez = a + b
+    a = b
+    b = rez
 }
